@@ -1,0 +1,75 @@
+/* Body styles */
+body {
+    font-family: sans-serif; /* Use a generic sans-serif font for a clean look */
+    margin: 0; /* Remove default margins for better control */
+    padding: 20px; /* Add some padding for visual spacing */
+    background-color: #f5f5f5; /* Light gray background for a minimalist feel */
+    color: #333; /* Dark gray text for good readability */
+}
+  
+  /* Heading styles */
+h1 {
+    text-align: center; /* Center align the main heading */
+    font-size: 2em; /* Increase font size for emphasis */
+    margin-bottom: 20px; /* Add some space after the heading */
+  }
+  
+  /* Form styles */
+  label {
+    display: block; /* Display label on a new line */
+    margin-bottom: 5px; /* Add some space between label and input */
+  }
+  
+  input[type="text"] {
+    width: 100%; /* Make the input field fill the available space */
+    padding: 10px; /* Add some padding for user comfort */
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 4px; /* Add rounded corners for a modern look */
+  }
+  
+  button {
+    display: block; /* Display button on a new line */
+    margin-top: 10px; /* Add some space above the button */
+    padding: 10px 20px; /* Add padding for readability */
+    background-color: #2196f3; /* Light blue button color (Material Design primary) */
+    color: white; /* White text for good contrast */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add rounded corners for a modern look */
+    cursor: pointer; /* Indicate clickable behavior with cursor */
+  }
+  
+  /* User info section styles */
+  #user-info {
+    background-color: white; /* White background for user info */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a light shadow for depth */
+    padding: 20px; /* Add some padding for visual spacing */
+    margin-top: 20px; /* Add some space after the button */
+    display: none; /* Hide the section initially */
+  }
+  
+  #user-info.visible { /* Style for the visible user info section */
+    display: block; /* Show the section when data is loaded */
+  }
+  
+  h2 {
+    margin-bottom: 10px; /* Add some space after the subheading */
+  }
+  
+  #user-avatar img {
+    max-width: 100px; /* Limit image size */
+    border-radius: 50%; /* Make the image circular */
+    display: block; /* Display image on a new line */
+    margin-bottom: 10px; /* Add some space after the image */
+  }
+  
+  #user-details {
+    line-height: 1.5; /* Increase line spacing for readability */
+  }
+  
+  /* Specific element styles (can be further customized for details) */
+  p strong {
+    font-weight: bold; /* Make bold for emphasis */
+  }
+  
+  a {
+    color: #2196f3; /* Light blue color
